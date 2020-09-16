@@ -1,0 +1,257 @@
+#msg{
+	width: 50%;
+	height: 96.5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+	/* 设置Y轴反转 */
+	transform:rotateY(-10deg) translateX(-100px);
+}
+
+
+	
+#dateTime{
+	color: #F0F8FF;
+}
+
+	
+.msgData{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+/* 时间和资源数 */
+#word{
+	width: 60%;
+	margin-top: 0.625rem;
+}
+#words1{
+	color: aliceblue;
+	background: rgba(0,0,0,0.2);
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 作站入口 */
+#fight{
+	height: 11.875rem;
+	width: 37.5rem;
+	background:rgba(243,243,243,0.68);
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#lizhi{
+	margin-left:1.25rem;
+	height: 9.6875rem;
+	width: 11.25rem;
+	position: relative;
+}
+
+#brain{
+	margin-left: 1.5rem;
+	transform: rotateY(180deg);
+}
+
+#lizhi #lizhiNum{
+	background-color: rgba(105,105,105,0.3);
+	height:6.875rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-shadow: 0.25rem 0.1875rem #8b8b8b;
+	font-size: 6rem;
+	text-align: right;
+}
+#lizhiNum span{
+	position: absolute;
+	z-index: 10;
+}
+#lizhi #lizhiRe{
+	font-size:1.5rem ;
+	background-color: #000000;
+	color: aliceblue;
+	margin-top: 0.625rem;
+	height: 2.1875rem;
+	text-align: right;
+}
+#fightSecs{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width:11.25rem;
+	height: 10rem;
+}
+
+#fightWord{
+	background-color:#000000;
+	color: aliceblue;
+	border-radius: 0.1875rem;
+	width: 3rem;
+	text-align: center;
+	height: 1.8rem;
+	line-height: 1.6rem;
+	font-size: 1.2rem;
+	margin-bottom: 0.1875rem;
+	margin-left: 0.125rem;
+}
+
+#activity{
+	width: 12.5rem;
+	height: 11.25rem;
+}
+
+/* 编队 */
+#team{
+	width:40.625rem ;
+	height: 9.375rem;
+	margin-right: -1.25rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bigTitle{
+	position: absolute;
+	top: 0.625rem;
+	left: 0.9375rem;
+	font-size: 4rem;
+	font-family:SimSun;
+	font-weight:bolder;
+}
+#team #teams{
+	position: relative;
+	width: 17.1875rem;
+	height: 9.375rem;
+	background:rgba(243,243,243,0.9);
+	background-image: url(../img/K8_左侧边栏_国际象棋.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#team #characters{
+	width: 17.1875rem;
+	height: 9.375rem;
+	position: relative;
+	background:rgba(243,243,243,0.9);
+	background-image: url(../img/象棋.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#team #music{
+	width: 3.125rem;
+	height: 6.25rem;
+	border-radius:0.3125rem;
+	background: rgba(0,0,0,0.4);
+	background-image: url(../img/播放.svg);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: 50% 75%;
+}
+
+/* 采购招募 */
+#recruit{
+	width:34.375rem ;
+	height: 9.375rem;
+	background-color: rgba(6,167,211,0.85);
+	margin-right: 1.5625rem;
+	display: flex;
+}
+#recruit #store{
+	position: relative;
+	flex: 1.5;
+	height: 100%;
+	border-right:0.1px solid rgba(1,104,138,1);
+}
+#store div{
+	margin-top: 4.6875rem;
+	display: block;
+	text-align: center;
+	font-family:SimSun;
+	font-weight:bolder;
+	font-size: 3rem;
+	color: #F0F8FF;
+}
+
+#recruit #recruits{
+	flex: 2;
+	height: 100%;
+	color: #F0F8FF;
+	display: flex;
+	flex-direction: column;
+}
+#recruitTitle{
+	height: 40%;
+	font-family: simsun;
+	font-weight: bolder;
+	font-size: 2rem;
+	background-color: rgb(69,69,69);
+	margin: 0.1875rem 0.5rem 0px 0.125rem;
+	position: relative;
+	display: flex;
+}
+#recruitTitle span{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+}
+#recruitgroups{
+	font-family: simsun;
+	font-weight: bolder;
+	font-size: 2rem;
+	height: 60%;
+	display: flex;
+	margin-bottom: 0.125rem;
+	margin-right: 0.5rem;
+	border:0.1px solid rgba(1,104,138,1);
+}
+#openRe{
+	flex: 1;
+	text-align: center;
+	line-height: 300%;
+	height: 100%;
+	border-right: 1px solid rgba(1,104,138,1);
+}
+#costRe{
+	flex: 1;
+	line-height: 300%;
+	text-align: center;
+	height: 100%;
+}
+
+/* 任务基建 */
+#mission{
+	width:35rem ;
+	height: 9.375rem;
+	margin-bottom: 1.25rem;
+	margin-right: 3.125rem;
+	display: flex;
+}
+
+#mission #missions{
+	flex: 1;
+	height: 100%;
+	background-color: #F0F8FF;
+	margin-right: 1.25rem;
+	background-image: url(../img/任务.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	position: relative;
+}
+#mission #buildings{
+	flex:1;
+	height: 100%;
+	background-color: #F0F8FF;
+	background-image: url(../img/科技2.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	position: relative;
+}

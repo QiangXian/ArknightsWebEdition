@@ -1,0 +1,35 @@
+#place{
+	height: 100vh;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	/* 设置Y轴反转 */
+	transform:rotateY(10deg) translateX(75px) translateY(-50px);
+}
+
+#banners{
+	margin:3.125rem 1.875rem;
+	width: 37.5rem;
+	height: 16.875rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#words{
+	margin-bottom: 0.9375rem;
+	height: 5rem;
+	color: aliceblue;
+	background-color: black;
+	opacity: 0.75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#banner{
+	height: 10.625rem;
+	display: flex;
+	justify-content: space-between;
+}

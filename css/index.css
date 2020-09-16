@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 21.875rem;
+	overflow: hidden;
+	background-color: grey;
+	position: relative;
+}
+.list{
+	width: 400%;
+	list-style: none;
+}
+.list::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.item{
+	width: 23.4375rem;
+	float: left;
+}
+.item img{
+	width: 100%;
+	height: 12.5rem;
+	display: block;
+}
+.point{
+	position: absolute;
+	bottom: 0.3125rem;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.point-item{
+	width: 2.5rem;
+	height: 0.3125rem;
+	margin: 0 0.3125rem;
+	background-color: white;
+}
+.point-item.active{
+	background-color: #ff9919;
+}

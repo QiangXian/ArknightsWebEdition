@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/left.css"/>
+		<link rel="stylesheet" type="text/css" href="css/right.css"/>
+		<title>Arknights</title>
+		
+	</head>
+	<body>
+		<div id="image">
+			<!-- 四图标 -->
+			<div class="msgImg">
+				<img src="img/配置.svg" >
+				<img src="img/注销.svg" >
+				<img src="img/档案.svg" >
+				<img src="img/明细.svg" >	
+			</div>
+			
+			<div id="information">
+				<!-- 将视窗分为左右2部分
+				左边背景为人物图像，主要功能为轮播图、人物语录显示 -->
+					
+					<!-- 轮播图即人物语录 -->
+					<div id="place">
+						<div id="banners">
+							<div id="words">
+								<span style="display: block;">
+								令人心潮澎湃
+								</span>
+							</div>
+							<div id="banner">
+									<div class="container">
+										<ul class="list">
+											<li class="item"><img class="unic" src="http://prts.wiki/images/thumb/9/9e/%E7%87%83%E9%92%A2%E4%B9%8B%E5%BF%83_%E6%9A%B4%E8%BA%81%E9%93%81%E7%9A%AE.jpg/600px-%E7%87%83%E9%92%A2%E4%B9%8B%E5%BF%83_%E6%9A%B4%E8%BA%81%E9%93%81%E7%9A%AE.jpg" ></li>
+											<li class="item"><img class="unic" src="http://prts.wiki/images/thumb/1/17/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A036.jpg/600px-%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A036.jpg" ></li>
+											<li class="item"><img class="unic" src="http://prts.wiki/images/thumb/c/c8/%E4%B8%8D%E7%BE%81%E9%80%86%E6%B5%81.jpg/600px-%E4%B8%8D%E7%BE%81%E9%80%86%E6%B5%81.jpg" ></li>
+										</ul>
+										<ul class="point">
+										</ul>
+									</div>
+								<div id="files">
+									<div>档案</div>
+									<div>好友</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<!-- 右边为游戏详细信息 -->
+					<div id="msg">
+						<div id="word">
+							<!-- 系统电量和时间 -->
+							<div class="msgData">
+								<span style="color: aliceblue;font-weight: bold;">—————&nbsp;&nbsp;</span>
+								<img src="img/电池.svg" style="display: inline;">&nbsp;&nbsp;
+								<div id="dateTime"></div>
+								<span style="color: aliceblue;font-weight: bold;">&nbsp;&nbsp;—————————</span>
+							</div>
+							<!-- 金钱资源属性 -->
+							<div class="msgData" id="words1">
+								<div class="msgData">
+									<img src="img/钱.svg" ><span>龙门币</span>
+								</div>
+								<div class="msgData">
+									<img src="img/宝石.svg"><span>合成玉</span><img src="img/加.svg">
+								</div>
+								<div class="msgData">
+									<img src="img/六边形.svg"><span>源石</span><img src="img/加.svg">
+								</div>
+							</div>
+						</div>
+						<!-- 作站入口 -->
+						<div class="msgData" id="fight">
+							<!-- 战斗图标 -->
+							<div id="lizhi">
+								<div id="lizhiNum">
+									<span>30</span>
+								</div>
+								<div id="lizhiRe">
+									理智/130&nbsp;
+								</div>
+							</div>
+							<img id="brain" src="img/脑窗.svg" style="position: absolute;z-index: 9;">
+							<div id="fightSecs">
+								<span style="display: block;font-size: 5rem;font-family:SimSun;font-weight:bolder;">作战</span>
+								<div style="height: 73px;display: flex;flex-direction: column;justify-content: flex-end;">
+									<div id="fightWord">当前</div>
+									<span style="font-size: 1.2rem;margin-bottom:5px;">全部完成</span>
+								</div>
+							</div>
+							<div id="activity">
+								
+							</div>
+						</div>
+						<!-- 编队 -->
+						<div class="msgData" id="team">
+							<div id="teams">
+								<span class="bigTitle">编队</span>
+							</div>
+							<div id="characters">
+								<span class="bigTitle">干员</span>
+							</div>
+							<div id="music">
+								
+							</div>
+						</div>
+						<!-- 采购招募 -->
+						<div class="msgData" id="recruit">
+							<div id="store">
+								<div>采购中心</div>
+							</div>
+							<div id="recruits">
+								<div id="recruitTitle">
+									<img src="img/招募.svg" style="align-items: center; margin-left: 0.25rem;">
+									<span>招募</span>
+								</div>
+								<div id="recruitgroups">
+									<div id="openRe">
+										公开招募
+									</div>
+									<div id="costRe">
+										干员招募
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 任务基建系统 -->
+						<div class="msgData" id="mission">
+							<div id="missions">
+								<span class="bigTitle">任务</span>
+							</div>
+							<div id="buildings">
+								<span class="bigTitle">基建</span>
+							</div>
+						</div>
+						
+					</div>
+			</div>
+		</div>
+		<script src="js/support.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
